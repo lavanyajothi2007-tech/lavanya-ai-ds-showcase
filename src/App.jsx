@@ -25,7 +25,7 @@ return (
     <Education />
     <Resume />
 
-    {/* Certificates PDF Button */}
+    {/* All Certificates Section */}
     <section
       id="all-certificates"
       style={{
@@ -36,12 +36,12 @@ return (
       <h2>My Certifications</h2>
 
       <p>
-        Explore my certificates in AI, Data Analytics,
-        Cybersecurity, MongoDB, and Generative AI.
+        Explore my certificates in Artificial Intelligence,
+        Data Analytics, Cybersecurity, MongoDB, and Generative AI.
       </p>
 
       <a
-        href="/certificates/Lavanya_Certifications_Portfolio.pdf"
+        href="/certificates/Lavanya_Certification_Portfolio.pdf"
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -53,6 +53,7 @@ return (
           textDecoration: 'none',
           borderRadius: '8px',
           fontWeight: 'bold',
+          transition: 'background-color 0.3s ease',
         }}
       >
         View All Certificates
