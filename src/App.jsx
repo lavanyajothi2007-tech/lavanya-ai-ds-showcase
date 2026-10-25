@@ -25,7 +25,6 @@ return (
     <Education />
     <Resume />
 
-    {/* All Certificates Section */}
     <section
       id="all-certificates"
       style={{
@@ -53,7 +52,7 @@ return (
           textDecoration: 'none',
           borderRadius: '8px',
           fontWeight: 'bold',
-          transition: 'background-color 0.3s ease',
+          cursor: 'pointer',
         }}
       >
         View All Certificates
